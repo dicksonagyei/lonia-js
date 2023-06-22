@@ -313,7 +313,7 @@ p.mt-3{
           
           const prompt = document.getElementById('input_area').value;
 
-            const apiKey = 'api-key';
+            const apiKey = process.env.API_KEY;
             
             const url = "https://api.openai.com/v1/chat/completions";
             
